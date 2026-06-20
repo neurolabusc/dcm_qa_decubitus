@@ -19,12 +19,13 @@
 	"ProtocolName": "ep2d_diff_mddw_20_p2",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK\\SP",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "PFP\\FS",
 	"SequenceName": "*ep_b0",
 	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "NORM", "MOSAIC"],
 	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 4,
-	"AcquisitionTime": "15:06:6.742500",
+	"AcquisitionTime": "15:06:06.742500",
 	"AcquisitionNumber": 1,
 	"SliceThickness": 4,
 	"SpacingBetweenSlices": 5.2,
@@ -66,6 +67,7 @@
 	"ReconMatrixPE": 128,
 	"BandwidthPerPixelPhaseEncode": 26.042,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000299996,
 	"DerivedVendorReportedEchoSpacing": 0.000599992,
 	"TotalReadoutTime": 0.0380995,
@@ -109,5 +111,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-epb0p2_dir-AP_run-4_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

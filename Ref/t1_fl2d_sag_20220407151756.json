@@ -19,11 +19,12 @@
 	"ProtocolName": "t1_fl2d_sag",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SP\\OSP",
+	"PulseSequenceType": "Spoiled Gradient Echo",
 	"SequenceName": "*fl2d1",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS2D", "MAGNITUDE"],
 	"NonlinearGradientCorrection": true,
 	"SeriesNumber": 2,
-	"AcquisitionTime": "15:19:6.572500",
+	"AcquisitionTime": "15:19:06.572500",
 	"AcquisitionNumber": 1,
 	"SliceThickness": 4,
 	"SpacingBetweenSlices": 4.8,
@@ -34,8 +35,8 @@
 		-0	],
 	"EchoTime": 0.00246,
 	"RepetitionTime": 0.3,
+	"SpoilingState": true,
 	"FlipAngle": 80,
-	"PartialFourier": 1,
 	"BaseResolution": 256,
 	"ShimSetting": [
 		6795,
@@ -63,6 +64,7 @@
 	"AcquisitionMatrixPE": 230,
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"PixelBandwidth": 355,
 	"DwellTime": 5.5e-06,
 	"PhaseEncodingDirection": "i",
@@ -113,5 +115,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["discard","_acq-fl2p2_run-2_localizer"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
